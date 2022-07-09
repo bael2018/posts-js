@@ -1,0 +1,24 @@
+/* main */
+
+main{
+    padding: 0 30px 30px 30px;
+}
+
+.post-return__btn{
+    background: var(--app-main-color);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+.post-card__header h1{
+    text-align: center;
+    color: var(--app-main-color);
+}
+
+.post-card__body p{
+    line-height: 1.6;
+}

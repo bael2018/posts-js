@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <title>Posts Page</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2 class="nav-logo">
+                Posts page
+            </h2>
+        </header>
+        
+        <main>
+            <section class="post-search">
+                <div class="post-search__wrapper">
+                    <input class="post-search__input" type="text" placeholder="Search by">
+                    <div class="post-search__result invisible"></div>
+                </div>
+                <select class="post-search__selector">
+                    <option value="title">Title</option>
+                    <option value="body">Body</option>
+                </select>
+            </section>
+
+            <section class="post-list"></section>
+
+            <div class="post-pagination invisible">
+                <button class="prev-btn">prev</button>
+                <span class="page-counter"></span>
+                <button class="next-btn">next</button>
+            </div>
+        </main>
+    </div>
+    <script src="/src/js/script.js"></script>
+</body>
+</html>
